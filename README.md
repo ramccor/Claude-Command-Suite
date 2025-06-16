@@ -30,6 +30,7 @@ Custom slash commands for Claude Code that provide structured workflows for comm
 🚀 **81 Total Commands and Growing!** - From code analysis to project management, we've got you covered.
 
 ### 🔍 Analysis Commands
+- `/project:ultra-think` - Engage ultra-deep thinking mode for complex problem-solving
 - `/project:architecture-review` - Analyze system architecture and design patterns
 - `/project:code-review` - Complete code quality and security review
 - `/project:security-audit` - Security vulnerability assessment
