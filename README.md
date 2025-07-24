@@ -1,7 +1,7 @@
 # Claude Code Custom Slash Commands
 
 ![Version](https://img.shields.io/badge/version-3.0.0-blue?style=for-the-badge)
-![Total Commands](https://img.shields.io/badge/Total%20Commands-104%20and%20growing!-brightgreen?style=for-the-badge)
+![Total Commands](https://img.shields.io/badge/Total%20Commands-109%20and%20growing!-brightgreen?style=for-the-badge)
 ![GitHub Release](https://img.shields.io/github/v/release/qdhenry/Claude-Command-Suite?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-purple?style=for-the-badge)
 <!-- Dynamic badge (will work after PR merge): ![Total Commands](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/qdhenry/Claude-Command-Suite/main/.github/badges/command-count.json&style=for-the-badge) -->
@@ -56,7 +56,7 @@ claude code
 <a id="available-commands"></a>
 ## Available Commands
 
-🚀 **104+ Commands Organized by Namespace** - Discover the right tool for any task with our namespace organization.
+🚀 **109+ Commands Organized by Namespace** - Discover the right tool for any task with our namespace organization.
 
 ### 🎯 Quick Navigation to Command Namespaces
 
@@ -79,6 +79,11 @@ Initialize, configure, and manage projects. Includes commands for creating new p
 - [`/project:project-health-check`](.claude/commands/project/project-health-check.md) - Analyze overall project health and metrics
 - [`/project:project-to-linear`](.claude/commands/project/project-to-linear.md) - Sync project structure to Linear workspace
 - [`/project:project-timeline-simulator`](.claude/commands/project/project-timeline-simulator.md) - Simulate project outcomes with variable modeling
+- [`/project:pac-configure`](.claude/commands/project/pac-configure.md) - Configure Product as Code (PAC) project structure
+- [`/project:pac-create-epic`](.claude/commands/project/pac-create-epic.md) - Create new PAC epic with guided workflow
+- [`/project:pac-create-ticket`](.claude/commands/project/pac-create-ticket.md) - Create new PAC ticket within an epic
+- [`/project:pac-validate`](.claude/commands/project/pac-validate.md) - Validate PAC structure for specification compliance
+- [`/project:pac-update-status`](.claude/commands/project/pac-update-status.md) - Update PAC ticket status and track progress
 
 ### 💻 `/dev:*` - Development Tools
 Essential development utilities including code review, debugging, refactoring, and specialized AI modes for enhanced assistance.
