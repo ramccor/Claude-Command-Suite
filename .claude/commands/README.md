@@ -37,6 +37,10 @@ Team workflow tools including standup reports, sprint planning, retrospectives, 
 ### 🎯 `/simulation:*` - AI Reality Simulators
 Advanced simulation and modeling tools for exponential decision value. Transform from linear execution gains to exponential strategic advantage through systematic scenario exploration, digital twins, and timeline compression.
 
+## Instructions
+
+This is a README file providing an overview of the Claude Command Suite namespace organization. To use any specific command, navigate to the appropriate namespace directory and select the command you need. Each command file contains detailed instructions for its use.
+
 ## Usage
 
 Commands follow the namespace pattern: `/<namespace>:<command>`
