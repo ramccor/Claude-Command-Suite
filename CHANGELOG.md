@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.2.0] - 2025-07-25
+
+### Added
+- **🤖 AI Agents System** - Revolutionary intelligent assistants that transform static commands into proactive development partners
+  - **9 Specialized Agents** created with focused expertise and minimal tool permissions:
+    - **Code Auditor Suite**: `code-auditor`, `security-auditor`, `performance-auditor`, `architecture-auditor`
+    - **Test Engineer**: Automated test generation with 90%+ coverage targets
+    - **Integration Manager**: GitHub-Linear bidirectional synchronization
+    - **Strategic Analyst**: Business and technical scenario modeling
+    - **Project Architect**: Intelligent project setup and scaffolding
+    - **Release Manager**: Automated release preparation and deployment
+  - **Agent Features**:
+    - Isolated context windows for focused analysis
+    - Automatic triggering based on keywords and context
+    - Intelligent agent chaining for complex workflows
+    - Proactive code quality assurance
+  - **Comprehensive Documentation**:
+    - Agent overview and capabilities matrix
+    - Workflow examples and best practices
+    - Visual workflow diagrams
+    - Troubleshooting guide
+- **Agent Opportunity Analysis** - Deep dive into command suite transformation opportunities
+- **Agent Counting Script** - Automated tracking of available agents with badge updates
+
+### Changed
+- **Enhanced README** with prominent AI agents section and dedicated agent badges
+- **Updated command count** to 110 (added PAC command in previous commits)
+
 ## [3.1.0] - 2025-07-24
 
 ## [2.0.0] - 2025-01-12
