@@ -1,7 +1,8 @@
 # Claude Code Custom Slash Commands
 
 ![Version](https://img.shields.io/badge/version-3.1.0-blue?style=for-the-badge)
-![Total Commands](https://img.shields.io/badge/Total%20Commands-109%20and%20growing!-brightgreen?style=for-the-badge)
+![Total Commands](https://img.shields.io/badge/Total%20Commands-110%20and%20growing!-brightgreen?style=for-the-badge)
+![AI Agents](https://img.shields.io/badge/AI%20Agents-9%20Intelligent%20Assistants-red?style=for-the-badge)
 ![GitHub Release](https://img.shields.io/github/v/release/qdhenry/Claude-Command-Suite?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-purple?style=for-the-badge)
 <!-- Dynamic badge (will work after PR merge): ![Total Commands](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/qdhenry/Claude-Command-Suite/main/.github/badges/command-count.json&style=for-the-badge) -->
@@ -10,13 +11,37 @@
 
 Custom slash commands for Claude Code that provide structured workflows for common software development tasks. Get comprehensive analysis, feature development, and code maintenance with organized namespace commands like `/dev:code-review`, `/test:generate-test-cases`, and `/deploy:prepare-release`.
 
+## 🤖 NEW: Intelligent AI Agents
+
+<div align="center">
+
+**Transform your commands into proactive AI assistants!**
+
+[![AI Agents](https://img.shields.io/badge/🤖_AI_Agents-9_Specialized_Assistants-ff6b6b?style=for-the-badge&labelColor=4c1d95)](.claude/agents/README.md)
+[![Workflows](https://img.shields.io/badge/🔄_Workflows-10+_Automated-4ecdc4?style=for-the-badge&labelColor=1a535c)](.claude/agents/WORKFLOW_EXAMPLES.md)
+[![Learn More](https://img.shields.io/badge/📚_Learn_More-Agent_Documentation-ffd93d?style=for-the-badge&labelColor=2d3436)](.claude/agents/README.md)
+
+</div>
+
+**Introducing Claude Command Suite AI Agents** - Specialized AI assistants that transform static commands into intelligent, proactive development partners:
+
+- **🛡️ Code Quality Suite**: Automated code review, security scanning, performance analysis
+- **🧪 Test Engineer**: Intelligent test generation with 90%+ coverage targets
+- **🔄 Integration Manager**: Seamless GitHub-Linear synchronization
+- **📊 Strategic Analyst**: Business scenario modeling and decision support
+- **🚀 And More**: Project setup, release management, architecture analysis
+
+[**→ Explore AI Agents Documentation**](.claude/agents/README.md) | [**→ See Workflow Examples**](.claude/agents/WORKFLOW_EXAMPLES.md)
+
+---
+
 ## 📚 Table of Contents
 
-| **🚀 Getting Started** | **⚡ Commands** | **💡 Usage** | **🔧 Development** | **📖 Resources** |
-|:---------------------:|:---------------:|:------------:|:------------------:|:----------------:|
-| [Quick Start](#quick-start) | [Available Commands](#available-commands) | [How It Works](#how-it-works) | [Contributing](#contributing) | [Requirements](#requirements) |
-| [Installation Guide](docs/INSTALLATION.md) | [Command Namespaces](#command-namespaces) | [Common Workflows](#common-workflows) | [Release Process](#release-process) | [Need More Details?](#need-more-details) |
-|  |  |  | [Automated Changelog](#automated-changelog) |  |
+| **🤖 AI Agents** | **🚀 Getting Started** | **⚡ Commands** | **💡 Usage** | **🔧 Development** |
+|:----------------:|:---------------------:|:---------------:|:------------:|:------------------:|
+| [AI Agents](#-new-intelligent-ai-agents) | [Quick Start](#quick-start) | [Available Commands](#available-commands) | [How It Works](#how-it-works) | [Contributing](#contributing) |
+| [Agent Docs](.claude/agents/README.md) | [Installation Guide](docs/INSTALLATION.md) | [Command Namespaces](#command-namespaces) | [Common Workflows](#common-workflows) | [Release Process](#release-process) |
+| [Workflows](.claude/agents/WORKFLOW_EXAMPLES.md) |  |  |  | [Automated Changelog](#automated-changelog) |
 
 <a id="quick-start"></a>
 ## Quick Start
@@ -56,7 +81,9 @@ claude code
 <a id="available-commands"></a>
 ## Available Commands
 
-🚀 **109+ Commands Organized by Namespace** - Discover the right tool for any task with our namespace organization.
+🚀 **110+ Commands Organized by Namespace** - Discover the right tool for any task with our namespace organization.
+
+🤖 **NEW: 9 Intelligent AI Agents** - Transform commands into proactive assistants! [Learn more about AI Agents](.claude/agents/README.md)
 
 ### 🎯 Quick Navigation to Command Namespaces
 
