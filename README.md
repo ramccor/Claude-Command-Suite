@@ -1,15 +1,21 @@
-# Claude Code Custom Slash Commands
+# Claude Command Suite
 
 ![Version](https://img.shields.io/badge/version-3.3.0-blue?style=for-the-badge)
-![Total Commands](https://img.shields.io/badge/Total%20Commands-110%20and%20growing!-brightgreen?style=for-the-badge)
+![Total Commands](https://img.shields.io/badge/Total%20Commands-119%20and%20growing!-brightgreen?style=for-the-badge)
 ![AI Agents](https://img.shields.io/badge/AI%20Agents-10%20Intelligent%20Assistants-red?style=for-the-badge)
 ![GitHub Release](https://img.shields.io/github/v/release/qdhenry/Claude-Command-Suite?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-purple?style=for-the-badge)
 <!-- Dynamic badge (will work after PR merge): ![Total Commands](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/qdhenry/Claude-Command-Suite/main/.github/badges/command-count.json&style=for-the-badge) -->
 
-> **Inspired by Anthropic's Claude Code Best Practices**: These custom commands are designed following the principles and recommendations outlined in [Anthropic's Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices) to maximize effectiveness and provide structured workflows for software development.
+> **Inspired by Anthropic's Claude Code Best Practices**: A comprehensive development toolkit designed following [Anthropic's Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices) to maximize AI-assisted software development effectiveness.
 
-Custom slash commands for Claude Code that provide structured workflows for common software development tasks. Get comprehensive analysis, feature development, and code maintenance with organized namespace commands like `/dev:code-review`, `/test:generate-test-cases`, and `/deploy:prepare-release`.
+**Claude Command Suite** is a powerful collection of 119+ custom slash commands, 10 intelligent AI agents, and automated workflows that transform Claude Code into your ultimate development partner. From code reviews and test generation to strategic business simulations and automated GitHub-Linear synchronization, this suite provides structured, repeatable workflows for every aspect of modern software development.
+
+- **🚀 Slash Commands**: Organized namespace commands like `/dev:code-review`, `/test:generate-test-cases`, and `/deploy:prepare-release` for consistent, thorough development workflows
+- **🤖 AI Agents**: Specialized assistants that proactively handle complex tasks like security auditing, test coverage optimization, and cross-platform issue synchronization
+- **🔄 Automated Workflows**: Pre-built sequences for common development patterns, from feature implementation to production deployment
+- **🎯 Reality Simulators**: Advanced decision-making tools that model business scenarios, system behaviors, and architectural choices across multiple timelines
+- **📋 Task Orchestration**: Intelligent task management system that breaks down complex projects, tracks progress, syncs with Git, and maintains context across sessions
 
 ## 🤖 NEW: Intelligent AI Agents
 
@@ -81,7 +87,7 @@ claude code
 <a id="available-commands"></a>
 ## Available Commands
 
-🚀 **110+ Commands Organized by Namespace** - Discover the right tool for any task with our namespace organization.
+🚀 **119+ Commands Organized by Namespace** - Discover the right tool for any task with our namespace organization.
 
 🤖 **NEW: 9 Intelligent AI Agents** - Transform commands into proactive assistants! [Learn more about AI Agents](.claude/agents/README.md)
 
@@ -90,7 +96,7 @@ claude code
 | **Core Development** | **Quality & Testing** | **Deployment** | **Collaboration** | **Advanced** |
 |:--------------------:|:--------------------:|:--------------:|:----------------:|:------------:|
 | [🚀 Project](#-project---project-management) | [🧪 Test](#-test---testing-suite) | [📦 Deploy](#-deploy---deployment--release) | [👥 Team](#-team---team-collaboration) | [🎯 Simulation](#-simulation---ai-reality-simulators) |
-| [💻 Dev](#-dev---development-tools) | [🔒 Security](#-security---security--compliance) | [📚 Docs](#-docs---documentation-generation) | [🔄 Sync](#-sync---integration--synchronization) |  |
+| [💻 Dev](#-dev---development-tools) | [🔒 Security](#-security---security--compliance) | [📚 Docs](#-docs---documentation-generation) | [🔄 Sync](#-sync---integration--synchronization) | [📋 Orchestration](#-orchestration---task-orchestration) |
 | [🔧 Setup](#-setup---configuration--setup) | [⚡ Performance](#-performance---performance-optimization) |  |  |  |
 
 <a id="command-namespaces"></a>
@@ -253,6 +259,21 @@ Advanced simulation and modeling tools for exponential decision value. Transform
 
 *Development tools `/dev:prime`, `/dev:all-tools` contributed by IndyDevDan (YouTube: https://www.youtube.com/@indydevdan) / DislerH (GitHub: https://github.com/disler)*
 
+### 📋 `/orchestration:*` - Task Orchestration
+Intelligent task management and execution system that transforms complex projects into organized, trackable workflows. Break down big ideas into manageable tasks, track progress across sessions, sync with Git, and maintain context even after breaks.
+
+- [`/orchestration:start`](.claude/commands/orchestration/start.md) - Begin a new project with intelligent task decomposition
+- [`/orchestration:status`](.claude/commands/orchestration/status.md) - Check progress and see what's happening across all projects
+- [`/orchestration:resume`](.claude/commands/orchestration/resume.md) - Continue where you left off with full context restoration
+- [`/orchestration:move`](.claude/commands/orchestration/move.md) - Update task status as work progresses
+- [`/orchestration:commit`](.claude/commands/orchestration/commit.md) - Create professional Git commits linked to tasks
+- [`/orchestration:find`](.claude/commands/orchestration/find.md) - Search and discover tasks across projects
+- [`/orchestration:report`](.claude/commands/orchestration/report.md) - Generate standup reports and executive summaries
+- [`/orchestration:sync`](.claude/commands/orchestration/sync.md) - Synchronize task status with Git commits
+- [`/orchestration:remove`](.claude/commands/orchestration/remove.md) - Remove or archive completed tasks
+
+**📚 [Task Orchestration Guide](.claude/commands/orchestration/ORCHESTRATION-README.md)** - Complete guide with examples, workflows, and best practices for managing complex development projects.
+
 
 <a id="how-it-works"></a>
 ## How It Works
@@ -321,6 +342,14 @@ Commands are available as `/namespace:command-name` in Claude Code. Each command
 /simulation:constraint-modeler              # Map decision constraints
 /simulation:business-scenario-explorer      # Explore multiple timelines
 /simulation:decision-tree-explorer          # Optimize decision choices
+```
+
+**Complex Project Management:**
+```bash
+/orchestration:start                        # Break down project into tasks
+/orchestration:status                       # Monitor progress
+/orchestration:resume                       # Continue after breaks
+/orchestration:commit                       # Create linked Git commits
 ```
 
 <a id="need-more-details"></a>
