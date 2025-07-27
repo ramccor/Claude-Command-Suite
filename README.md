@@ -1,6 +1,6 @@
 # Claude Command Suite
 
-![Version](https://img.shields.io/badge/version-3.4.0-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-3.5.0-blue?style=for-the-badge)
 ![Total Commands](https://img.shields.io/badge/Total%20Commands-119%20and%20growing!-brightgreen?style=for-the-badge)
 ![AI Agents](https://img.shields.io/badge/AI%20Agents-10%20Intelligent%20Assistants-red?style=for-the-badge)
 ![GitHub Release](https://img.shields.io/github/v/release/qdhenry/Claude-Command-Suite?style=for-the-badge)
