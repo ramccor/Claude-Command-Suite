@@ -2,14 +2,14 @@
 
 ![Version](https://img.shields.io/badge/version-3.5.1-blue?style=for-the-badge)
 ![Total Commands](https://img.shields.io/badge/Total%20Commands-119%20and%20growing!-brightgreen?style=for-the-badge)
-![AI Agents](https://img.shields.io/badge/AI%20Agents-10%20Intelligent%20Assistants-red?style=for-the-badge)
+![AI Agents](https://img.shields.io/badge/AI%20Agents-54%20Intelligent%20Assistants-red?style=for-the-badge)
 ![GitHub Release](https://img.shields.io/github/v/release/qdhenry/Claude-Command-Suite?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-purple?style=for-the-badge)
 <!-- Dynamic badge (will work after PR merge): ![Total Commands](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/qdhenry/Claude-Command-Suite/main/.github/badges/command-count.json&style=for-the-badge) -->
 
 > **Inspired by Anthropic's Claude Code Best Practices**: A comprehensive development toolkit designed following [Anthropic's Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices) to maximize AI-assisted software development effectiveness.
 
-**Claude Command Suite** is a powerful collection of 119+ custom slash commands, 10 intelligent AI agents, and automated workflows that transform Claude Code into your ultimate development partner. From code reviews and test generation to strategic business simulations and automated GitHub-Linear synchronization, this suite provides structured, repeatable workflows for every aspect of modern software development.
+**Claude Command Suite** is a powerful collection of 119+ custom slash commands, 54 intelligent AI agents, and automated workflows that transform Claude Code into your ultimate development partner. From code reviews and test generation to strategic business simulations and automated GitHub-Linear synchronization, this suite provides structured, repeatable workflows for every aspect of modern software development.
 
 - **🚀 Slash Commands**: Organized namespace commands like `/dev:code-review`, `/test:generate-test-cases`, and `/deploy:prepare-release` for consistent, thorough development workflows
 - **🤖 AI Agents**: Specialized assistants that proactively handle complex tasks like security auditing, test coverage optimization, and cross-platform issue synchronization
@@ -23,7 +23,7 @@
 
 **Transform your commands into proactive AI assistants!**
 
-[![AI Agents](https://img.shields.io/badge/🤖_AI_Agents-9_Specialized_Assistants-ff6b6b?style=for-the-badge&labelColor=4c1d95)](.claude/agents/README.md)
+[![AI Agents](https://img.shields.io/badge/🤖_AI_Agents-54_Specialized_Assistants-ff6b6b?style=for-the-badge&labelColor=4c1d95)](.claude/agents/README.md)
 [![Workflows](https://img.shields.io/badge/🔄_Workflows-10+_Automated-4ecdc4?style=for-the-badge&labelColor=1a535c)](.claude/agents/WORKFLOW_EXAMPLES.md)
 [![Learn More](https://img.shields.io/badge/📚_Learn_More-Agent_Documentation-ffd93d?style=for-the-badge&labelColor=2d3436)](.claude/agents/README.md)
 
@@ -89,7 +89,7 @@ claude code
 
 🚀 **119+ Commands Organized by Namespace** - Discover the right tool for any task with our namespace organization.
 
-🤖 **NEW: 9 Intelligent AI Agents** - Transform commands into proactive assistants! [Learn more about AI Agents](.claude/agents/README.md)
+🤖 **NEW: 54 Intelligent AI Agents** - Transform commands into proactive assistants! [Learn more about AI Agents](.claude/agents/README.md)
 
 ### 🎯 Quick Navigation to Command Namespaces
 
@@ -440,6 +440,19 @@ For details on contributing and commit formats, see [CONTRIBUTING.md](CONTRIBUTI
 
 - Claude Code version 1.0 or later
 - Commands work with any programming language or framework
+
+## Attribution
+
+### External AI Agents
+
+This project includes 44 specialized AI agents from [wshobson/agents](https://github.com/wshobson/agents), expanding our collection to 54 total agents. These external agents provide expertise in:
+
+- **Development**: Backend architecture, frontend development, mobile development, GraphQL
+- **Languages**: Python, Go, Rust, C/C++, JavaScript, SQL specialists
+- **Infrastructure**: DevOps, cloud architecture, database administration, Terraform
+- **Quality**: Code review, security auditing, performance engineering, test automation
+
+Full attribution and details can be found in [.claude/agents/external/wshobson/ATTRIBUTION.md](.claude/agents/external/wshobson/ATTRIBUTION.md).
 
 ---
 
