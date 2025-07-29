@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Agents](https://img.shields.io/badge/AI_Agents-10-purple?style=for-the-badge)
+![Agents](https://img.shields.io/badge/AI_Agents-54-purple?style=for-the-badge)
 ![Workflows](https://img.shields.io/badge/Workflows-10+-orange?style=for-the-badge)
 ![Context Isolation](https://img.shields.io/badge/Context-Isolated-green?style=for-the-badge)
 ![Automation](https://img.shields.io/badge/Automation-Proactive-blue?style=for-the-badge)
@@ -329,12 +329,35 @@ You are an expert in [domain]. Your role is to [specific responsibilities].
 3. **Minimal Tools**: Only what's necessary
 4. **Structured Output**: Consistent formatting
 
+## 🌐 External Agents
+
+### wshobson's Agent Collection
+
+We've integrated 44 specialized agents from [wshobson/agents](https://github.com/wshobson/agents), providing additional expertise across:
+
+- **Development Specialists**: backend-architect, frontend-developer, mobile-developer
+- **Language Experts**: python-pro, golang-pro, rust-pro, javascript-pro, and more
+- **Infrastructure & DevOps**: devops-troubleshooter, cloud-architect, terraform-specialist
+- **Database Specialists**: database-admin, database-optimizer, sql-pro
+- **Quality & Security**: code-reviewer, security-auditor, performance-engineer
+
+These agents are located in `.claude/agents/external/wshobson/` and can be used exactly like native agents:
+
+```bash
+# Examples
+"Use backend-architect to design the API structure"
+"Have security-auditor check for OWASP compliance"
+"Get python-pro to optimize this data processing script"
+```
+
+See [ATTRIBUTION.md](external/wshobson/ATTRIBUTION.md) for full attribution details.
+
 ## 🚦 Troubleshooting
 
 <details>
 <summary><b>Agent Not Triggering</b></summary>
 
-- Verify agent file exists in `.claude/agents/`
+- Verify agent file exists in `.claude/agents/` or `.claude/agents/external/`
 - Check YAML frontmatter formatting
 - Ensure description contains trigger keywords
 - Try explicit invocation first
