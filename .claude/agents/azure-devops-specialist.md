@@ -156,7 +156,7 @@ stages:
         inlineScript: |
           # Build and push container
           az acr build --registry myregistry --image myapp:$(Build.BuildId) .
-    
+
 - stage: Deploy_Dev
   dependsOn: Build
   condition: succeeded()
@@ -247,7 +247,7 @@ AppExceptions
 // Performance metrics
 AppRequests
 | where TimeGenerated > ago(1h)
-| summarize 
+| summarize
     AvgDuration = avg(DurationMs),
     P95Duration = percentile(DurationMs, 95),
     RequestCount = count()
