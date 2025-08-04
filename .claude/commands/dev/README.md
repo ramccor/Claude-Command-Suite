@@ -15,5 +15,6 @@ This namespace contains commands for daily development tasks, code analysis, and
 - **git-status.md** - Enhanced Git status with additional insights and recommendations
 - **prime.md** - Prime your development environment for optimal performance
 - **refactor-code.md** - Refactor code following best practices and design patterns
+- **rule2hook.md** - Convert natural language project rules into Claude Code hooks automatically (by [zxdxjtu](https://github.com/zxdxjtu/claudecode-rule2hook))
 - **sentient.md** - Advanced AI-powered development assistant with contextual awareness
 - **ultra-think.md** - Deep thinking mode for complex problem solving and architecture decisions
