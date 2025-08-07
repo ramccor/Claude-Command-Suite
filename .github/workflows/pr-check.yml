@@ -113,6 +113,9 @@ jobs:
   check-commands:
     runs-on: ubuntu-latest
     if: contains(github.event.pull_request.title, 'command') || contains(github.event.pull_request.body, '.claude/commands')
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
