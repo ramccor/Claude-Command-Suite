@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Agents](https://img.shields.io/badge/AI_Agents-54-purple?style=for-the-badge)
+![Agents](https://img.shields.io/badge/AI_Agents-55-purple?style=for-the-badge)
 ![Workflows](https://img.shields.io/badge/Workflows-10+-orange?style=for-the-badge)
 ![Context Isolation](https://img.shields.io/badge/Context-Isolated-green?style=for-the-badge)
 ![Automation](https://img.shields.io/badge/Automation-Proactive-blue?style=for-the-badge)
@@ -335,7 +335,7 @@ You are an expert in [domain]. Your role is to [specific responsibilities].
 
 We've integrated 44 specialized agents from [wshobson/agents](https://github.com/wshobson/agents), providing additional expertise across:
 
-- **Development Specialists**: backend-architect, frontend-developer, mobile-developer
+- **Development Specialists**: backend-architect, frontend-developer, mobile-developer, swift-macos-expert
 - **Language Experts**: python-pro, golang-pro, rust-pro, javascript-pro, and more
 - **Infrastructure & DevOps**: devops-troubleshooter, cloud-architect, terraform-specialist
 - **Database Specialists**: database-admin, database-optimizer, sql-pro

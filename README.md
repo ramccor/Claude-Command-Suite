@@ -445,7 +445,7 @@ For details on contributing and commit formats, see [CONTRIBUTING.md](CONTRIBUTI
 
 ### External AI Agents
 
-This project includes 44 specialized AI agents from [wshobson/agents](https://github.com/wshobson/agents), expanding our collection to 54 total agents. These external agents provide expertise in:
+This project includes 44 specialized AI agents from [wshobson/agents](https://github.com/wshobson/agents), expanding our collection to 55 total agents. These external agents provide expertise in:
 
 - **Development**: Backend architecture, frontend development, mobile development, GraphQL
 - **Languages**: Python, Go, Rust, C/C++, JavaScript, SQL specialists
