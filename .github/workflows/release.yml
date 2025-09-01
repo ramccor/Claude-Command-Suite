@@ -22,6 +22,7 @@ permissions:
   contents: write
   pull-requests: write
   issues: write
+  actions: write
 
 jobs:
   release:
@@ -242,8 +243,8 @@ jobs:
       - name: Push changes
         if: steps.analyze-commits.outputs.bump_type != 'none'
         run: |
-          echo "Pushing version updates to main branch..."
-          git push origin main
+          echo "Branch protection requires PR, skipping direct push to main..."
+          echo "Version files updated locally for release creation"
 
       - name: Generate release notes
         if: steps.analyze-commits.outputs.bump_type != 'none'
